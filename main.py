@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = os.getenv9206390919:AAG40GlM-ss3IEBd_1cMLis4tIr_Ij8LeUQ
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("✅ TakaBox Bot Active!\nTakaBox link pathao.")
